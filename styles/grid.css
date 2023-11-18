@@ -1,0 +1,33 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header nav .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+header nav .menu_item {
+    text-align: center;
+}
+
+header .button_1 .button_2 {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.grid_for_sale {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    align-items: center;
+}
